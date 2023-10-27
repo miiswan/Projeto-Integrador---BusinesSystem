@@ -27,8 +27,16 @@ body{
     padding-left: 2rem;
 }
 .nav-items {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--azul-escuro);
     margin-left: 4rem;
 }
+
+.nav-item{
+    padding-top: 30px;
+}
+
 #logo {
     margin-top: 1.5rem; 
 }
@@ -38,4 +46,92 @@ body{
     flex-direction: row;
     margin-left: 25rem;
     gap: 3rem;
+    position: relative;
+    bottom: 270px;
+    font-size: 22px;
+}
+
+.card-cadastro{
+    background-color: #0388A6;
+    border-radius: 5px;
+}
+
+.cadastro-title{
+    width: 138px;
+    height: 127px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.pedidos-title{
+    width: 138px;
+    height: 127px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.estoque-title{
+    width: 138px;
+    height: 127px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.funcionarios-title{
+    width: 138px;
+    height: 127px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.title-caixa{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25rem;
+    position: relative;
+    bottom: 200px;
+    font-size: 22px;
+}
+
+.caixa{
+    display: flex;
+    width: 1020px;
+    height: 615px;
+    background-color: #0388A6;
+    border-radius: 5px;
+    margin-left: 25rem;
+    position: relative;
+    bottom: 10rem;
+}
+
+.title-clientes{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25rem;
+    gap: 3rem;
+    position: relative;
+    bottom: 210px;
+    font-size: 22px;
+}
+
+.title-funcionarios{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25rem;
+    gap: 3rem;
+    position: relative;
+    bottom: 210px;
+    font-size: 22px;
 }
