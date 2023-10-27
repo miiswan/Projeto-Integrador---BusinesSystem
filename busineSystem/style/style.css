@@ -32,3 +32,10 @@ body{
 #logo {
     margin-top: 1.5rem; 
 }
+
+.cadastros {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25rem;
+    gap: 3rem;
+}
