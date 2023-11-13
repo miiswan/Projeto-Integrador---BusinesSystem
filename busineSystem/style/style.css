@@ -58,7 +58,7 @@ body{
 
 .cadastro-title{
     width: 138px;
-    height: 127px;
+    height: 67px;
     color: white;
     display: flex;
     justify-content: center;
@@ -68,7 +68,7 @@ body{
 
 .pedidos-title{
     width: 138px;
-    height: 127px;
+    height: 67px;
     color: white;
     display: flex;
     justify-content: center;
@@ -78,7 +78,7 @@ body{
 
 .estoque-title{
     width: 138px;
-    height: 127px;
+    height: 67px;
     color: white;
     display: flex;
     justify-content: center;
@@ -88,7 +88,7 @@ body{
 
 .funcionarios-title{
     width: 138px;
-    height: 127px;
+    height: 67px;
     color: white;
     display: flex;
     justify-content: center;
@@ -107,6 +107,7 @@ body{
 
 .caixa{
     display: flex;
+    flex-direction: column;
     width: 1020px;
     height: 615px;
     background-color: #0388A6;
@@ -114,6 +115,11 @@ body{
     margin-left: 25rem;
     position: relative;
     bottom: 10rem;
+}
+
+.caixa-secundaria{
+    display: flex;
+    flex-direction: row;
 }
 
 .title-clientes{
@@ -134,4 +140,114 @@ body{
     position: relative;
     bottom: 210px;
     font-size: 22px;
+}
+
+.caixa-entradas{
+    width: 256px;
+    height: 121px;
+    margin: 2rem;
+    margin-left: 3rem;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.caixa-titulo{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.caixa-saidas{
+    width: 256px;
+    height: 121px;
+    margin: 2rem;
+    margin-left: 2.6rem;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.caixa-total{
+    width: 256px;
+    height: 121px;
+    margin: 2rem;
+    margin-left: 2.6rem;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.valor{
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.caixa-adicionar{
+    width: 918px;
+    height: 92px;
+    margin: 2rem;
+    margin-left: 3rem;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    padding: 1.5rem;
+    padding-right: 2rem;
+}
+
+.adicionar{
+    width: 163px;
+    height: 45px;
+    background-color: #878787;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+
+.icone{
+    width: 76px;
+    height: 67px;
+}
+
+.caixa-descricao{
+    width: 918px;
+    height: 234px;
+    margin: 2rem;
+    margin-left: 3rem;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    gap: 250px;
+    padding: 1.5rem;
+    padding-right: 2rem;
+}
+
+.cd-titulo{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 90px;
+}
+
+.caixa-valor{
+    width: 918px;
+    height: 234px;
+    margin: 2rem;
+    margin-left: 3rem;
+    border-radius: 5px;
+    display: flex;
+    gap: 250px;
+    padding: 1.5rem;
+    padding-right: 2rem;
+}
+
+.cd-titulo{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 90px;
 }
